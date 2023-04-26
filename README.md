@@ -3,15 +3,15 @@ Projekts, kura ietvaros apgūsim UI elementu veidošanu un darbošanos ar tiem, 
 ![MR. Bean attēls](https://www.pngall.com/wp-content/uploads/5/Cartoon-Mr.-Bean-PNG.png)
 
 ## Veicamo darbu saraksts:
-- [ ] Input field lietojums
-- [ ] Text elementa lietojums
-- [ ] Button elementa lietojums
-- [ ] Image elementa lietojums
-- [ ] C# skripta izveide un piesaiste objektiem
-- [ ] Toggle element lietojums
-- [ ] Toggle Goup komponentes lietojums
-- [ ] Drop down elementa lietojums
-- [ ] Slider elementu lietojums
+- [x] Input field lietojums
+- [x] Text elementa lietojums
+- [x] Button elementa lietojums
+- [x] Image elementa lietojums
+- [x] C# skripta izveide un piesaiste objektiem
+- [x] Toggle element lietojums
+- [x] Toggle Goup komponentes lietojums
+- [x] Drop down elementa lietojums
+- [x] Slider elementu lietojums
 - [ ] Audio Source integrēšana ainā
 - [ ] Scroll view elementa lietojums
 - [ ] Drag and drop funkcionalitātes ieviešana

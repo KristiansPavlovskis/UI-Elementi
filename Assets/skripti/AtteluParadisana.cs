@@ -11,6 +11,8 @@ public class AtteluParadisana : MonoBehaviour {
 
 	public GameObject paLabiPoga; //TogglePaLabi
 	public GameObject paKreisiPoga;
+	public GameObject IzmSlaiders;
+	public GameObject RotSlaiders;
 
 	public GameObject mainigaisAttels;
 	public Sprite[] atteluMasivs;
@@ -50,5 +52,13 @@ public class AtteluParadisana : MonoBehaviour {
 		else
 			Debug.Log ("Nav piesaistīts attēls!");
 		
+	}
+	public void MainitLielumu(){
+		float pasreizejaVertiba = IzmSlaiders.GetComponent<Slider>().value;
+		mainigaisAttels.transform.localScale = new Vector2 (1f * pasreizejaVertiba, 1f * pasreizejaVertiba);
+	}
+	public void MainitRotaciju(){
+		float pasreizejaVertiba = RotSlaiders.GetComponent<Slider>().value;
+		mainigaisAttels.transform.localRotation =  Quaternion.Euler(0,0, pasreizejaVertiba* 360f);
 	}
 }
