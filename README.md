@@ -12,9 +12,9 @@ Projekts, kura ietvaros apgūsim UI elementu veidošanu un darbošanos ar tiem, 
 - [x] Toggle Goup komponentes lietojums
 - [x] Drop down elementa lietojums
 - [x] Slider elementu lietojums
-- [ ] Audio Source integrēšana ainā
-- [ ] Scroll view elementa lietojums
-- [ ] Drag and drop funkcionalitātes ieviešana
-- [ ] Pārslēgšanās starp ainām
+- [x] Audio Source integrēšana ainā
+- [x] Scroll view elementa lietojums
+- [x] Drag and drop funkcionalitātes ieviešana
+- [x] Pārslēgšanās starp ainām
 - [ ] Objektu ģenerēšana
 - [ ] Projekta sagatavošana darbināšanai no darbvirsmas (.exe)
