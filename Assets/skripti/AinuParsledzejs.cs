@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class AinuParsledzejs : MonoBehaviour {
 
 	// Use this for initialization
 	public void UzSakumu(){
-		EditorSceneManager.LoadScene ("Sakums", UnityEngine.SceneManagement.LoadSceneMode.Single);
+		SceneManager.LoadScene (0, LoadSceneMode.Single);
 	}
 	public void UzUIElement(){
-		EditorSceneManager.LoadScene ("UI elementi", UnityEngine.SceneManagement.LoadSceneMode.Single);
+		SceneManager.LoadScene (1, LoadSceneMode.Single);
 	}
 	//Metode , kura aizver programmu, ja tā ir izveidota kā .exe
 	public void Apturet(){
